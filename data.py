@@ -8,8 +8,8 @@ PASSWORD = os.getenv('E_PASSWORD')
 
 
 #For jenkins runs
-DOMAIN = 'http://localhost:8000'
-BASE_URL = 'http://localhost:8000'
+DOMAIN = 'http://website:8000'
+BASE_URL = 'http://website:8000'
 
 
 
