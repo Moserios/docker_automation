@@ -2,9 +2,9 @@ from playwright.async_api import async_playwright, Page, Locator
 import pytest
 import functions_ui
 import page_locators
-from automation import functions_db
-from automation import functions_api
-from automation import data
+import functions_db
+import functions_api
+import data
 
 
 exceptions = []

@@ -1,5 +1,5 @@
 from tinydb import TinyDB, Query
-from automation import data
+import data
 import os
 
 # -----

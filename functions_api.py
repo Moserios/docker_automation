@@ -1,5 +1,5 @@
 import pytest
-from automation import data
+import data
 import httpx
 import asyncio
 from playwright.async_api import async_playwright, Browser, BrowserContext, Page

@@ -1,8 +1,8 @@
-from playwright.async_api import async_playwright, Browser, BrowserContext, Page
-import requests
-import pytest
-import httpx
-from functions_api import GetCookies
+#from playwright.async_api import async_playwright, Browser, BrowserContext, Page
+#import requests
+#import pytest
+#import httpx
+#from functions_api import GetCookies
 
 # @pytest.fixture(scope="session")
 # async def api_tests():
