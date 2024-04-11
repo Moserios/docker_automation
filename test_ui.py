@@ -13,7 +13,7 @@ exceptions = []
 @pytest.mark.e2e
 async def test_check_reminder_creation():
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=False, timeout=2000, slow_mo=500)
+        browser = await p.chromium.launch(headless=True, timeout=2000, slow_mo=500)
         context = await browser.new_context(viewport={'width': 1920, 'height': 1080})
         page = await context.new_page()
         login_page = functions_ui.LoginPage(page)
